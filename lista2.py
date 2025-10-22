@@ -24,7 +24,11 @@ while True:
     print("Deseja apagar? 1-sim 2-não")
     resposta = int(input("Qual sua resposta? "))
 
-    if resposta == 1:
+    #len() irá verificar o tamanho da lista.
+    if len(valores2)<=0:
+        print("Lista vazia")
+        break
+    elif resposta == 1:
         valores2.pop()
     elif resposta==2:
         break
