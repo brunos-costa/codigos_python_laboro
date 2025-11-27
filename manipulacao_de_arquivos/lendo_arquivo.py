@@ -20,7 +20,7 @@ print(arquivo.readable())
 
 #Lendo várias linhas
 resultado = arquivo.readlines()
-print(resultado[3]) 
+print(resultado) 
 
 
 arquivo.close()# fechandoo arquivo
